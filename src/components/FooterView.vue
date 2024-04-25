@@ -6,8 +6,8 @@
             <v-btn class="mx-4" variant="text" >Designers</v-btn>
             <v-btn class="mx-4" variant="text" >Blog</v-btn>
             <v-btn class="mx-4" variant="text" >Inspiration</v-btn>
-            <v-btn class="mx-4" variant="text" >About us</v-btn>
-            <v-btn class="mx-4" variant="text" >Cotact</v-btn>
+           <router-link to="/about" class="mx-4 v-btn v-btn--text">About Us</router-link>
+           <router-link to="/contact" class="mx-4 v-btn v-btn--text">Contact</router-link>
         </v-card-text>
         <v-card-text>
             @ {{ new Date().getFullYear()}} - <strong>.Furniture AAE IdeaPro All Rights Reserved</strong>
